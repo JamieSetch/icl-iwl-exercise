@@ -25,7 +25,7 @@ class Config:
     # ---- model ----
     model: str = "transformer"  # "transformer" or "lstm"
     d_model: int = 64
-    n_layers: int = 2
+    n_layers: int = 4
     n_heads: int = 1
     use_mlp: bool = True
     pos_enc: str = "learned"    # "learned", "sinusoidal" or "none"
